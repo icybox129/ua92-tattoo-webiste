@@ -149,7 +149,7 @@ body {
   background: rgb(213, 228, 240);
   background: -webkit-linear-gradient(90deg, rgba(211,161,161,1) 0%, rgb(213, 228, 240) 100%);
   background: -moz-linear-gradient(90deg, rgba(211,161,161,1) 0%, rgb(213, 228, 240) 100%);
-  background: linear-gradient(90deg, rgba(211,161,161,1) 0%, rgb(213, 228, 240) 100%);
+  background: radial-gradient(circle, rgba(224,215,215,1) 23%, rgba(211,161,161,1) 100%);
   padding: 44px 0 22px 0;
 }
 
@@ -281,7 +281,7 @@ p a {
 }
 
 .btn-default:hover {
-  background: #fff;
+  background: #30475E;
 }
 
 /*
