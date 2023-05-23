@@ -168,8 +168,9 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 38px;
   line-height: 44px;
+  font-weight: 400;
 }
 
 h2 {
@@ -295,13 +296,17 @@ p a {
   border-bottom: 4px solid #F05454;
   float: left;
   font-size: 48px;
-  font-weight: 300;
+  font-weight: bold;
   letter-spacing: 3.3px;
   line-height: 44px;
   padding: 10px 0 10px 0;
   margin-top: 18px;
   text-transform: uppercase;
   text-align: center;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
 }
 
 .tagline {
@@ -362,7 +367,7 @@ p a {
 
 .teaser h3 {
   color: #222831;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -373,7 +378,7 @@ p a {
 }
 
 .featured h2 {
-  font-size: 30px;
+  font-size: 36px;
   text-transform: uppercase;
   font-weight: 300;
 }
